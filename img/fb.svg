@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="43px" viewBox="0 0 43 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>fb</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPad-Pro-Landscape" transform="translate(-435.000000, -521.000000)">
+            <g id="fb" transform="translate(435.000000, 521.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="43" height="43" rx="7"></rect>
+                <path d="M22.7978059,32.4443333 L22.7978059,22.9663333 L25.8855706,22.9663333 L26.3475706,19.273 L22.7978059,19.273 L22.7978059,16.915 C22.7978059,15.8456667 23.0857471,15.1163333 24.5746294,15.1163333 L26.4724529,15.1156667 L26.4724529,11.8123333 C26.1443941,11.767 25.0178647,11.6663333 23.7062765,11.6663333 C20.9692176,11.6663333 19.0953353,13.3876667 19.0953353,16.549 L19.0953353,19.273 L15.9998059,19.273 L15.9998059,22.9663333 L19.0953353,22.9663333 L19.0953353,32.4443333 L22.7978059,32.4443333 Z" id="Fill-1" fill="#282829"></path>
+            </g>
+        </g>
+    </g>
+</svg>
