@@ -50,6 +50,29 @@ a {
     margin: 0 auto;
 }
 
+.icon {
+    transition: .4s;
+}
+
+.icon-container:hover .fb {
+    fill: #3b5998;
+}
+.icon-container:hover .vk {
+    fill: #5075a5;
+}
+.icon-container:hover .soundcloud {
+    fill: #ff6a22;
+}
+.icon-container:hover .insta {
+    fill: #DB3073;
+}
+.icon-container:hover .youtube {
+    fill: #c8312b;
+}
+.icon-container:hover .mm {
+    fill: #3b5894;
+}
+
 @media screen and (max-width: 480px) {
     .header .logo {
         width: 90%;
