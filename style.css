@@ -120,6 +120,10 @@ a {
         overflow: auto;
     }
 
+    .header:after {
+        height: 120%;
+    }
+
     .header .container {
         padding: 40px 0 0;
     }
