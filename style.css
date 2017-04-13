@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -10,14 +12,15 @@ html, body {
 }
 
 body {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
+    color: white;
     line-height: 20px;
     overflow: hidden;
 }
 
 .container {
-    width: 1200px;
+    width: 800px;
     display: block;
     margin: 0 auto;
 }
@@ -63,6 +66,27 @@ a {
     margin: 0 auto;
 }
 
+.header h1 {
+    text-align: center;
+    font-size: 35px;
+    margin: 50px 0 40px;
+}
+
+.header ul {
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.header ul li {
+    border-top: 1px solid white;
+    padding: 15px 0 15px;
+}
+
+.header ul li:last-child {
+    border-bottom: 1px solid white;
+}
+
 .icon {
     transition: .4s;
 }
@@ -70,23 +94,36 @@ a {
 .icon-container:hover .fb {
     fill: #3b5998;
 }
+
 .icon-container:hover .vk {
     fill: #5075a5;
 }
+
 .icon-container:hover .soundcloud {
     fill: #ff6a22;
 }
+
 .icon-container:hover .insta {
     fill: #DB3073;
 }
+
 .icon-container:hover .youtube {
     fill: #c8312b;
 }
+
 .icon-container:hover .mm {
     fill: #3b5894;
 }
 
 @media screen and (max-width: 480px) {
+    body {
+        overflow: auto;
+    }
+
+    .header .container {
+        padding: 40px 0 0;
+    }
+
     .header .logo {
         width: 90%;
     }
@@ -103,6 +140,14 @@ a {
 
     .header .social a:nth-child(3n) {
         margin-right: 0;
+    }
+
+    .header h1 {
+        margin: 35px 0 40px;
+    }
+
+    .header ul li:last-child {
+        padding: 15px 5px ;
     }
 }
 
